@@ -5,8 +5,8 @@ import requests
 
 # API info
 API_HOST = 'https://api.bitkub.com'
-API_KEY = 'YOUR API KEY'
-API_SECRET = b'YOUR API SECRET'
+API_KEY = '5cfb33f083211d74e598f12987d88e9'
+API_SECRET = b'06f034f39fb149904633daff3612308a'
 
 def json_encode(data):
 	return json.dumps(data, separators=(',', ':'), sort_keys=True)
